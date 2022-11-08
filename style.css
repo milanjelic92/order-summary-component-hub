@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -60px;
+    
+  }
+
+  .card {
+    width: 360px;
+    height: 570px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .image-container {
+    width: 360px;
+    
+  }
+  .order-container {
+    margin-top: 30px;
+  }
+  .hero-image {
+    width: 360px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .music-image {
+    width: 35px;
+  }
+  .music-image-container {
+    margin-left: 10px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .grid {
+    width: 280px;
+    height: 80px;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 40px 100px 1fr;
+    align-items: center;
+   
+  }
+  .change-link {
+    justify-self: end;
+    margin-right: 15px;
+  }
+  .price-plan {
+    margin-left: 20px;
+  }
+  h1 {
+    text-align: center;
+    font-family: Red Hat Display, sans-serif;
+    font-family: 900;
+    font-size: 24px;
+  }
+  .paragraph {
+    text-align: center;
+    font-family: Red Hat Display, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+  }
